@@ -109,4 +109,4 @@ if(VMA_BUILD_SAMPLE_SHADERS)
     add_subdirectory(Shaders)
 endif()
 
-export(TARGETS VulkanMemoryAllocator FILE ${CMAKE_CURRENT_BINARY_DIR}/VulkanMemoryAllocatorConfig.cmake)
+export(TARGETS VulkanMemoryAllocator FILE ${PROJECT_BINARY_DIR}/VulkanMemoryAllocatorConfig.cmake)
